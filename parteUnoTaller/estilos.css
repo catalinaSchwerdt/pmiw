@@ -1,0 +1,49 @@
+
+@font-face {
+    font-family: "FjallaOne";
+    src: url(./Fuentes/FjallaOne-Regular.ttf);
+    font-weight: normal;
+}
+@font-face{
+    font-family: "Mulish";
+    src: url(./Fuentes/Mulish-VariableFont_wght.ttf);
+    font-weight: normal;
+}
+
+html {
+    background-color: white;
+    h1, h2, h3{ 
+    font-family: "FjallaOne";
+    }
+}
+
+header {
+    background-color: rgba(165, 42, 42, 0.534);
+    text-align: center;
+}
+
+
+
+#Titulo{
+    color: rgb(255, 191, 54);
+}
+
+.Subtitulos{
+color: rgb(68, 68, 68);
+}
+
+ol li, ul li{
+    color: rgb(78, 10, 141);
+}
+
+.img-uno {
+    width: 400;
+}
+
+h1, h2, h3{
+    font-family: "FjallaOne";
+}
+
+p, ol, ul, a{
+    font-family: "Mulish";
+}
